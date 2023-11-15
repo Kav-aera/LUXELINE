@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <nav class="Upper_title">
+            <a href="HOME.html">
+            <img src="TITLE.jpg" class="title_image"></a>
+
+            <div class="links">
+                <a href="HOME.html">Home</a>
+                <a>Mens </a>
+                <a href="women-template.html">Womens</a>
+                <a>Kids</a>
+                <a>Login</a>
+                <a>Contact</a>
+                <a href="search.html">Search</a>
+            </div></nav>
+        
+        <div class="image">
+        <img src="Womens section img/coat.avif" class="underimage"></div>
+
+        <h1 class="main-text3">Winters Coat</h1>
+        <p class="sub-text">"Wrap yourself in warmth and undeniable style with our exquisite collection of coats – where fashion meets 
+            function, and every ensemble tells a story of elegance and resilience against the elements."</p>
+            
+            <hr>
+        <p class="sub-text2">Price: 250$</p>
+        <p class="sub-text2">Expexted delivery: 7 Days</p>
+        <div id="cart-message">Item added to cart!</div>
+        <div>
+        
+            <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+          </div>
+          
+          <script>
+            function addToCart() {
+              // Display the cart message
+              var cartMessage = document.getElementById("cart-message");
+              cartMessage.style.display = "block";
+          
+              // Hide the cart message after 3 seconds (adjust as needed)
+              setTimeout(function() {
+                cartMessage.style.display = "none";
+              }, 3000);
+            }
+          </script>
+    </body>
+</html>

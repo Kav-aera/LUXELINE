@@ -1,0 +1,238 @@
+body {
+    background-image: url('background\ img.jfif.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+  }
+.Upper_title{
+    background-image: url('navbar.jpg');
+}
+nav{
+    background-color: rgba(245, 245, 220, 0.242);
+}
+.title_image{
+    height: 100px;
+    width: 100px;
+    padding-right: 300px;
+}
+nav {
+    background-color: beige;
+    padding: 15px;
+    overflow: hidden;
+    font-size: large;
+  }
+
+  nav img {
+    float: left;
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Add styling for active link if needed */
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Clear floats after the navbar */
+  nav:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .links{
+    padding-top: 25px;
+    font-size: 25px;
+    padding-right: 100px;
+    font-family:'monotype corsiva';
+
+  }
+
+  .home_upper {
+    text-align: center;
+
+    width: 100%; /* Adjust the width as needed */
+    height: 100%; /* Maintain aspect ratio */
+    max-width: 1500px;
+    margin-top: 20px;
+  }
+
+  .elements {
+    float: left;
+    margin-right: 10px;
+    margin-left: 150px;
+}
+
+.home_image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px; /* Adjust the padding as needed */
+    border: 6px dashed #b1b4ed; /* Add a 2px solid border with a color (#333) */
+    border-radius: 10px; /* Adjust the border-radius for rounded corners */
+    box-sizing:content-box;
+    margin-right: 150px;
+    margin-left:50px;
+   padding: 0; 
+   background: linear-gradient(45deg, #6e84a3, #4b5c76); /* Gradient background */
+   transition: border 0.3s ease-in-out;
+   
+}
+
+
+.main-text{
+    font-family:great vibes;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    color: aliceblue;
+    margin-bottom: 40px;
+   
+}
+
+  .image-container {
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+   
+  }
+
+
+
+  .image-caption {
+    text-align: center;
+    margin-left: -100px;
+    font-family: 'arial black';
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: -15px;
+  }
+  
+  hr{
+    color:#ddd;
+    margin-top: auto;
+  }
+
+  .main-text2{
+    font-family:great vibes;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    margin: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-decoration: underline;
+  }
+
+  .sub-text{
+    font-family:Bahnschrift Light;
+    font-size:20px;
+    text-align: center;
+    color: aliceblue;
+    margin: 50px;
+  }
+
+   hr {
+    border: none;
+    height: 2px; /* Adjust the height of the line */
+    background: #ccc; /* Color of the line */
+    margin: 20px 0; /* Adjust the margin for spacing above and below the line */
+    padding-left: 20px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    margin-top: -10px;
+  }
+
+  .search-bar {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  button {
+    margin-left: 5px;
+    background-color: #555;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #cart-message {
+    display: none;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .add-to-cart-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    padding-left:30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+
+  .image{
+    float:left;
+    margin-top:20px;
+    margin-right:50px;
+    display:inline;
+    border:6px solid;
+    box-sizing: content-box;
+    border-radius: 10px;
+    border-color: #3498db7b;
+
+    
+  }
+
+  .main-text3{
+    font-family:great vibes;
+    font-size: 40px;
+    text-align: left;
+    color: aliceblue;
+    margin: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+   
+  }
+
+  .sub-text2{
+    font-family:Bahnschrift Light;
+    font-size:20px;
+    text-align: left;
+    color: aliceblue;
+    margin: 30px;
+  }
