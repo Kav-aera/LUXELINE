@@ -7,6 +7,7 @@ body {
   }
 .Upper_title{
     background-image: url('navbar.jpg');
+    
 }
 nav{
     background-color: rgba(245, 245, 220, 0.242);
@@ -14,11 +15,11 @@ nav{
 .title_image{
     height: 100px;
     width: 100px;
-    padding-right: 300px;
+    padding-right: 350px;
 }
 nav {
     background-color: beige;
-    padding: 15px;
+    padding: -5px;
     overflow: hidden;
     font-size: large;
   }
@@ -32,7 +33,7 @@ nav {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 13px;
     text-decoration: none;
   }
 
@@ -50,7 +51,7 @@ nav {
   }
 
   .links{
-    padding-top: 25px;
+    padding-top: 30px;
     font-size: 25px;
     padding-right: 100px;
     font-family:'monotype corsiva';
@@ -97,8 +98,12 @@ nav {
     font-size: 40px;
     text-align: center;
     margin-top: 100px;
-    color: aliceblue;
+    color: black;
     margin-bottom: 40px;
+    border: 2px solid grey; /* Border style and color */
+    background-color: lightgrey; /* Background color */
+    padding: 20px; /* Padding inside the border */
+  
    
 }
 
@@ -227,6 +232,7 @@ nav {
     margin-top: 20px;
     padding-top: 20px;
    
+   
   }
 
   .sub-text2{
@@ -236,3 +242,38 @@ nav {
     color: aliceblue;
     margin: 30px;
   }
+
+  .arrivals {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.arrivals img {
+    max-width: 300px; /* Ensure images don't exceed the container width */
+    height: 300px; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add space between images */
+    padding:15px;
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.arrivals img:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+.image-caption2 {
+  text-align: center;
+  margin-left: -100px;
+  font-family: 'arial';
+  font-size: 15px;
+  color: aliceblue;
+  margin-top: -15px;
+}
+
+.image-container img{
+  transition: transform 0.3s ease;
+}
+.image-container img:hover {
+  transform: scale(1.1); /* Increase size on hover */
+}
+
+
